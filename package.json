@@ -1,0 +1,17 @@
+{
+  "name": "reasonml-playground",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start:build": "bsb -make-world -w",
+    "start": "nodemon ./src/Index.bs.js",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": ["BuckleScript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "bs-platform": "^3.1.4"
+  }
+}
